@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Consolas;
+    src: url('fonts/Consolas.ttf');
+  }
+html {
+	cursor:url("img/cursor1.png"), default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Consolas;
+}
+body {
+    z-index: inherit;
+    background-image: url("loop1.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    -webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+    font-family: Consolas;
+}
+
+
+.h1stats {
+    color: rgb(204, 104, 100);
+	font-family:Arial, Helvetica, sans-serif;
+    line-height: 80%;
+    text-transform: uppercase;
+    width: 500px;
+    color: #b9dfff;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    top: 360px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    text-shadow: 0 0 5px #fff,0 0 5px #fff,0 0 15px #fff,0 0 15px #ffffff,0 0 5px #ff0000,0 0 5px #ffffff;
+    font-size: 75px;
+}
+.vnl {
+    line-height: 80%;
+    text-transform: uppercase;
+    width: 500px;
+    position: fixed;
+    text-align: center;
+    top: 380px;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    src: url(fonts/Consolas.ttf);
+    font-size: 75px;
+    opacity: 0.1;
+    color: #eeeeee;
+}
+
+.h6s {
+	color: rgb(78, 78, 78);
+    position: relative; bottom: 37px;
+    font-size: 6PX;
+    text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.nbsp {
+    display: block;
+    color: rgb(204, 104, 100);
+    text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+    line-height: 80%;
+	transform: rotateX(0) rotateY(-25deg);
+    text-transform: uppercase;
+    width: 50px;
+    color: #b9dfff;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff,0 0 5px #fff,0 0 15px #fff,0 0 15px #ffffff,0 0 5px #ff0000,0 0 5px #ffffff;
+    font-size: 75px;
+}
+.imgexample {
+    position: relative; bottom: 120px;
+}
+.h2-left {
+    color: rgb(255, 255, 255);	
+    text-transform: uppercase;
+    color: #ff2e04;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    bottom: 54.5%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'Consolas';
+    src: url(/jumpstats-html/fonts/Consolas.ttf);
+}
+.h2-right {
+    color: rgb(255, 255, 255);	
+    text-transform: uppercase;
+    color: #ff2e04;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    position: absolute;
+    right: 45%;
+    bottom: 54.5%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: "Consolas";
+    src: url(/jumpstats-html/fonts/Consolas.ttf);
+}
+
+.center {
+    text-align: left;
+    padding-top: 50%;
+    padding: 16%;
+    padding-left: 23%;
+    width: 100px;
+    height: 100px;
+    font-family: "Consolas";
+    src: url(/jumpstats-html/fonts/Consolas.ttf);
+  }
+
+a { 
+    text-decoration: none; 
+}
+i {
+    color: #da0000;
+}
+

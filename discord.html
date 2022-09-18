@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chicken.png" type="image/icon type">
+    <link rel="stylesheet" href="64tick.css">
+    <link rel="stylesheet" href="discord.css">
+    <title>firlik#0969</title>
+</head>
+<body>
+    <h1 class="h11" id="copy">firlik#0969</h1>
+    <button class="copypaste" type="button" onclick="copyEvent('copy')">copy</button>
+    <script>
+        function copyEvent(id)
+        {
+            var str = document.getElementById(id);
+            window.getSelection().selectAllChildren(str);
+            document.execCommand("Copy")
+            alert("You successfully copied the tag")
+        }
+    </script>
+    <a href="index.html"><button class="glow-on-hover" >return</button></a>
+</body>
+
+</html>
